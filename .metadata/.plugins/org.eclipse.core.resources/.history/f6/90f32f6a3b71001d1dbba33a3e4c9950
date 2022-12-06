@@ -1,0 +1,10 @@
+package data_driven;
+
+import java.io.FileInputStream;
+public class Phase5 {
+
+	public static void main(String[] args) throws Exception {
+		
+		FileInputStream fis = new FileInputStream("D:\\Selenium folder\\DataEntry.xlsx");
+	}
+}

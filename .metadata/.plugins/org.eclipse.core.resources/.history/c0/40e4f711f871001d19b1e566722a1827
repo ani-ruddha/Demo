@@ -1,0 +1,35 @@
+package data_driven;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+public class Phase5 {
+
+	public static void main(String[] args) throws Exception {
+		
+		FileInputStream fis = new FileInputStream("D:\\Selenium folder\\DataEntry.xlsx");
+		
+	Workbook book = 	WorkbookFactory.create(fis);
+	
+	Sheet sh =	book.getSheet("Sheet1");
+	
+	sh.createRow(1).createCell(1).setCellValue("Summer");
+	
+	FileOutputStream fos = new FileOutputStream("D:\\Selenium folder\\DataEntry.xlsx");
+	
+	book.write(fos);
+	
+	fos.flush();
+	
+	System.out.println("pass");
+	
+	
+	}
+}
+
+
+
+

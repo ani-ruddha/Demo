@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;listners&apos; to &apos;Framework/src/combination&apos;&#x0D;&#x0A;- Original project: &apos;Automation_project&apos;&#x0D;&#x0A;- Destination element: &apos;Framework/src/combination&apos;&#x0D;&#x0A;- Original element: &apos;Automation_project/src/listners&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Framework/src&lt;combination" element1="/src&lt;listners" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1666028903406" version="1.0"/>
+</session>

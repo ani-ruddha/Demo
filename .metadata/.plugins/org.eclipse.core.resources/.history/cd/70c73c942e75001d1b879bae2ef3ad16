@@ -1,0 +1,68 @@
+package data_driven;
+
+import java.io.FileInputStream;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Phase4 {
+
+	public static void main(String[] args) throws Exception {
+		
+//		System.setProperty("webdriver.chrome.driver", "D:\\Selenium folder\\chromedriver.exe");
+//		
+//		WebDriver driver  = new ChromeDriver();
+//		
+//		driver.get("https://demo.actitime.com/login.do");
+		FileInputStream fis = new FileInputStream("D:\\Selenium folder\\DataEntry.xlsx");
+		
+		Workbook book = WorkbookFactory.create(fis);
+		
+		Sheet sh = book.getSheet("Sheet1");
+		
+		DataFormatter df = new DataFormatter();
+		
+		for(int i = 0 ; i<=sh.getLastRowNum() ; i++)
+		{
+			Row r  = sh.getRow(i);
+			
+//			for(int j = 0 ; j<=r.getLastCellNum() ; j++)
+//			{
+//				String allValues = df.formatCellValue(r.getCell(j));
+//				
+//				System.out.print(allValues);
+				
+	System.out.println(r.getLastCellNum());
+		
+	String s1 =	df.formatCellValue(r.getCell(1));
+	
+	System.out.println(s1);
+	//driver.findElement(By.xpath("//input[@name='username']")).sendKeys(s1)
+	
+	
+	
+	
+//			}
+	
+	
+		}
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
+

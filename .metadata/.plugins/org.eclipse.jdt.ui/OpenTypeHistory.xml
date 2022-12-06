@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Automation_project/C:\/Users\/JSPIDERS\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(PriorityQueue.class[PriorityQueue" modifiers="33" timestamp="1652611584000"/>
+    <typeInfo handle="=Automation_project/C:\/Users\/JSPIDERS\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(LinkedHashSet.class[LinkedHashSet" modifiers="33" timestamp="1652611584000"/>
+    <typeInfo handle="=Automation_project/D:\/Selenium folder\/selenium-server-4.3.0.jar&lt;org.openqa.selenium(WebDriver.class[WebDriver" modifiers="1537" timestamp="1657383028355"/>
+    <typeInfo handle="=Automation_project/D:\/Selenium folder\/selenium-server-4.3.0.jar&lt;org.openqa.selenium(WebElement.class[WebElement" modifiers="1537" timestamp="1657383028355"/>
+    <typeInfo handle="=Automation_project/D:\/Selenium folder\/selenium-server-4.3.0.jar&lt;org.openqa.selenium(Keys.class[Keys" modifiers="16433" timestamp="1657383028355"/>
+    <typeInfo handle="=Automation_project/C:\/Users\/JSPIDERS\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\/jre\/lib\/jrt-fs.jar`java.desktop=/module=/true=/&lt;java.awt(Robot.class[Robot" modifiers="33" timestamp="1652611584000"/>
+    <typeInfo handle="=Automation_project/D:\/Selenium folder\/selenium-server-4.3.0.jar&lt;org.openqa.selenium(JavascriptExecutor.class[JavascriptExecutor" modifiers="1537" timestamp="1657383028355"/>
+    <typeInfo handle="=Automation_project/C:\/Users\/JSPIDERS\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang(String.class[String" modifiers="49" timestamp="1652611584000"/>
+    <typeInfo handle="=Framework/D:\/Selenium folder\/poi-bin-5.2.2\/poi-5.2.2.jar&lt;org.apache.poi.ss.usermodel(Sheet.class[Sheet" modifiers="1537" timestamp="1661533018031"/>
+    <typeInfo handle="=Automation_project/D:\/Selenium folder\/selenium-server-4.3.0.jar&lt;org.openqa.selenium.remote(RemoteWebDriver.class[RemoteWebDriver" modifiers="33" timestamp="1657383028355"/>
+    <typeInfo handle="=Automation_project/D:\/Selenium folder\/selenium-server-4.3.0.jar&lt;org.openqa.selenium(SearchContext.class[SearchContext" modifiers="1537" timestamp="1657383028355"/>
+    <typeInfo handle="=Listners_execution/D:\/Selenium folder\/selenium-server-4.5.0.jar&lt;org.openqa.selenium(StaleElementReferenceException.class[StaleElementReferenceException" modifiers="33" timestamp="1664626115100"/>
+</typeInfoHistroy>
